@@ -17,7 +17,7 @@ As device SDK can't see [device identity properties](https://docs.microsoft.com/
 ### Build and deploy the application
 
 1. Double click consoleApp.sln to open Visual Studio project.
-2. In main.c file, replace `EventHubconnectionString` and `IoTHubconnectionString`.
+2. In Program.cs file, replace `EventHubconnectionString` and `IoTHubconnectionString`.
 3. Press **F5** to build and run the application
 4. Once a new device is registed to IoT Hub, you will see below logs. 
    ```
