@@ -1,4 +1,6 @@
-﻿# Populate deviceId service
+﻿# Populate deviceId service (deprecated)
+ 
+> This repo is deprecated, See how to [Get Azure Sphere Device ID code snippet](https://github.com/Azure/azure-sphere-samples/tree/main/CodeSnippets/DeviceId) locally.
 
 This sample code demostrate a service to receive [createDeviceIdentity](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-identity-registry#device-and-module-lifecycle-notifications) event from IoT Hub build-in endpoint and populate 'deviceId' field back to the desired properties of device twin. 
 
